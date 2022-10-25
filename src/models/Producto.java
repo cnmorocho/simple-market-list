@@ -9,10 +9,6 @@ public class Producto implements Comparable<Producto> {
         this.precio = precio;
     }
 
-    public String mostrarDetalle() {
-        return "";
-    }
-
     public int compareTo(Producto producto){
         return this.precio.toInt() - producto.precio.toInt();
     }

@@ -9,7 +9,7 @@ public class Contenido {
         this.unidad = unidad;
     }
 
-    public String getContenidoConUnidad() {
-        return this.cantidad.toString().concat(this.unidad);
+    public String toString() {
+        return String.format("%d%s", this.cantidad, this.unidad);
     }
 }

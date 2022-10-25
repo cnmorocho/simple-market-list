@@ -9,7 +9,7 @@ public class Fruta extends Producto {
     }
 
     @Override
-    public String mostrarDetalle() {
-        return "Nombre: ".concat(this.titulo).concat(" /// Precio: ").concat(this.precio.getPrecio()).concat(" /// Unidad de venta: ").concat(this.unidadDeVenta);
+    public String toString() {
+        return String.format("Nombre: %s /// Precio: %s /// Unidad de venta: %s", this.titulo, this.precio.toString(), this.unidadDeVenta);
     }
 }

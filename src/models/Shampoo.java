@@ -10,8 +10,8 @@ public class Shampoo extends Producto{
     }
 
     @Override
-    public String mostrarDetalle() {
-        return "Nombre: ".concat(this.titulo).concat(" /// Contenido: ").concat(this.contenido.getContenidoConUnidad()).concat(" /// Precio: ").concat(this.precio.getPrecio());
+    public String toString() {
+        return String.format("Nombre: %s /// Contenido: %s /// Precio %s", this.titulo, this.contenido.toString(), this.precio.toString());
     }
 
 }

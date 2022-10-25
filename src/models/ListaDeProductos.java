@@ -9,7 +9,7 @@ public class ListaDeProductos {
 
     public void mostrarProductos() {
         productos.forEach(producto -> {
-            System.out.println(producto.mostrarDetalle());
+            System.out.println(producto.toString());
         });
         System.out.println("=============================");
         System.out.println("Producto mas caro: ".concat(this.productoMasCaro()));

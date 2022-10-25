@@ -7,8 +7,9 @@ public class Precio {
         this.precio = precio;
     }
 
-    public String getPrecio() {
-        return "$".concat(this.precio.toString());
+    @Override
+    public String toString() {
+        return String.format("$%d", this.precio);
     }
 
     public int toInt() {

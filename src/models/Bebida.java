@@ -9,8 +9,8 @@ public class Bebida extends Producto{
     }
 
     @Override
-    public String mostrarDetalle() {
-        return "Nombre: ".concat(this.titulo).concat(" /// Litros: ").concat(this.litros.toString()).concat(" /// Precio: ").concat(this.precio.getPrecio());
+    public String toString() {
+        return String.format("Nombre: %s /// Litros: %.1f /// Precio %s", this.titulo, this.litros, this.precio.toString());
     }
 
 }

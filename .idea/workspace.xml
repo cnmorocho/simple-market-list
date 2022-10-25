@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56bdd62f-83bf-4b39-bf25-8df75dcd1667" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperMarket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Contenido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Contenido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Fruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Fruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ListaDeProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ListaDeProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Precio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Precio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Shampoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Shampoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
